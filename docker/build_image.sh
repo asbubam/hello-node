@@ -10,4 +10,4 @@ if [ $1 ] && [ $1 = 'push' ]; then
     docker push asbubam/hello-node:latest
 fi
 
-docker images | grep -F "asbubam/hello-node" | grep -F "$CURRENT_TAG":
+docker images | grep -F "asbubam/hello-node" | grep -F "$CURRENT_TAG"
