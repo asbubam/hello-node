@@ -1,0 +1,12 @@
+node_modules/
+.idea/
+.env
+tmp
+npm-debug.log
+.vscode/
+
+# direnv
+.envrc
+.direnv
+
+docker-compose.yml
