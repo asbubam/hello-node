@@ -7,10 +7,10 @@ machine:
     - docker
 dependencies:
   pre:
+    - sudo apt-get install jq
   override:
     - npm install
 test:
-  pre:
   override:
     - npm test
   post:
