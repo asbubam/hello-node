@@ -20,3 +20,4 @@ deployment:
     branch: master
     commands:
        - ./docker/build_image.sh push
+       - ./deployment/deploy.sh
