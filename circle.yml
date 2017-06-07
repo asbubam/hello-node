@@ -1,0 +1,22 @@
+machine:
+  node:
+    version: 6.10.2
+  environment:
+    PORT: 8080
+  services:
+    - docker
+dependencies:
+  pre:
+  override:
+    - npm install
+test:
+  pre:
+  override:
+    - npm test
+	post:
+    - npm run lint
+deployment:
+  production:
+    branch: master
+    command:
+       - ./docker/build_image.sh push

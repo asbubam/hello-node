@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "mocha"
+  ],
+  "rules": {
+    "new-cap": ["off"],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "next|Promise" }],
+    "arrow-body-style": ["off"],
+    "space-before-function-paren": ["error", "never"],
+    "no-console": ["error"],
+    "mocha/no-exclusive-tests": "error"
+  }
+}
