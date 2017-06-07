@@ -13,7 +13,7 @@ test:
   pre:
   override:
     - npm test
-	post:
+  post:
     - npm run lint
 deployment:
   production:
