@@ -12,3 +12,4 @@ app.listen(PORT, () => {
   console.log('hello-node app listening on port 3000!');
 });
 
+module.exports = app;
