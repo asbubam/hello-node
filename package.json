@@ -1,0 +1,22 @@
+{
+  "name": "hello-node",
+  "version": "0.0.1",
+  "description": "basic node.js sample",
+  "main": "start.js",
+  "scripts": {
+		"start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbubam/hello-node.git"
+  },
+  "author": "asbubam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asbubam/hello-node/issues"
+  },
+  "homepage": "https://github.com/asbubam/hello-node#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
