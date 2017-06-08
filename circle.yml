@@ -19,5 +19,6 @@ deployment:
   production:
     branch: test
     commands:
-       - ./docker/build_image.sh push
+      #(TODO) for test
+      #- ./docker/build_image.sh push
        - ./deployment/deploy.sh
