@@ -5,7 +5,8 @@
   "main": "start.js",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "mocha -t 10000 $(find test -name '*.spec.js')"
   },
   "repository": {
     "type": "git",
