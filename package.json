@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/asbubam/hello-node#readme",
   "dependencies": {
-    "aws-xray-sdk": "^1.1.1",
     "express": "^4.15.3"
   },
   "devDependencies": {
