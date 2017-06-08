@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log('hello-node app listening on port 3000!');
+  console.log(`hello-node app listening on port ${PORT}`);
 });
 
 module.exports = app;
